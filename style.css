@@ -1,0 +1,482 @@
+/* Estilos de la navbar*/
+a {
+    text-decoration: none !important;
+}
+
+.backg {
+    background-image: url(img-PF/banner.jpg) !important;
+    background-size: cover;
+    width: 100%;
+}
+
+@media (min-width: 980px) {
+    .bannerwp {
+        width: 100%;
+        height: 800px;
+    } 
+}
+
+@media (max-width: 980px) {
+    .bannerwp {
+        width: 100%;
+        height: 500px;
+    } 
+
+}
+
+.bombilla {
+    width: 18px;
+}
+
+.hoverbutton:hover{
+    color: gray!important ;
+}
+
+.fontz {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 16px !important;
+}
+/*Media query para volver responsive el banner*/
+
+/*Pantalla grande*/
+@media (min-width: 980px){
+    .title1 {
+        font-family: 'Playfair Display', serif!important;
+        font-size: 45px !important;
+        color: whitesmoke;
+    }
+
+    .title {
+        margin-top: 60px;
+    }
+
+    .parrafobanner {
+        font-family: 'Playfair Display', serif!important;
+        font-size: 20px !important;
+    }
+
+    .parrafo {
+        margin-top: 150px;
+        font-family: 'Playfair Display', serif!important;
+        color:#ffffff ;
+    }
+
+    .parrafobanner_responsive{
+        width: 0%;
+        font-size: 0%;
+
+    }
+    .icono1 {
+        margin-top: 50px;
+        width: 200px;
+    }
+    .parrafo2 {
+        margin-top: 120px;
+        font-family: 'Playfair Display', serif!important;
+        color:#ffffff ;
+    
+    }
+    .parrafo3 {
+        margin-top: 160px;
+        font-family: 'Playfair Display', serif!important;
+        color:#ffffff ;
+    
+    }
+    .parrafobanner2 {
+        font-family: 'Playfair Display', serif!important;
+        font-size: 36px !important;
+        color: white;
+        letter-spacing: 0;
+        text-shadow: -1px -1px 1px #0b60a9, 1px -1px 1px #0b60a9, -1px 1px 1px #0b60a9, 1px 1px 1px #0b60a9;
+    
+    }
+    .iconw{
+        width: 50px;
+    }
+
+    .iconw:hover{
+        width: 56px;
+    }
+    .logo1 {
+        width: 170px;
+    
+    }
+    
+    .buttongt{
+        margin-top: 120px;
+    }
+    .displine {
+        display: inline;
+    }
+}
+
+/*segundo banner con menciones y fotos*/
+/*Pantalla pequeña*/
+@media (max-width: 980px){
+    .widthmention1{
+        width: 100%;
+    }
+    .widthmention2{
+        width: 100%;
+    }
+
+    .iconcheck{
+        width: 20px;
+    }
+    
+    .paddingchecks1{
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    .paddingchecks2{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 25px;
+        padding-bottom: 0px;
+    }
+    
+    .imagechecks{
+        width: 240px;
+        border-radius: 40px;
+    }
+    .title1 {
+        font-family: 'Playfair Display', serif!important;
+        font-size: 26px !important;
+        color: whitesmoke;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .parrafobanner {
+       /*  font-family: 'Roboto', sans-serif !important;
+        font-size: 14px !important; */
+        width: 0%;
+        font-size: 0%;
+    }
+
+    .parrafo {
+        /* margin-top: 26px;
+        font-family: 'Roboto', sans-serif !important;
+        color:#ffffff ; */
+        width: 0%;
+        font-size: 0%;
+    }
+
+    .mbutton{
+        margin-bottom: 30px;
+    }
+
+    .parrafobanner_responsive{
+        font-family: 'Playfair Display', serif!important;
+        font-size: 14px !important;
+        color: whitesmoke;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 40px;
+    }
+    .icono1 {
+        margin-top: 20px;
+        width: 70px;
+    }
+    .parrafo2 {
+        width: 0%;
+        font-size: 0%;
+
+    
+    }
+    .parrafo3 {
+        margin-top: 26px;
+        font-family: 'Playfair Display', serif!important;
+        color:#ffffff ;
+    
+    }
+    .parrafobanner2 {
+        font-family: 'Playfair Display', serif!important;
+        font-size: 24px !important;
+        color: white;
+        letter-spacing: 0;
+        text-shadow: -1px -1px 1px #0b60a9, 1px -1px 1px #0b60a9, -1px 1px 1px #0b60a9, 1px 1px 1px #0b60a9;
+    
+    }
+    .iconw{
+        width: 36px;
+    }
+
+    .logo1{
+        width: 130px;
+        margin-left: 0px !important;
+
+}
+.displine {
+    display: inline;
+}
+
+
+
+  
+}
+
+/*pantalla grande*/
+@media (min-width: 980px){
+
+.widthmention1{
+    width: 50%;
+}
+.widthmention2{
+    width: 50%;
+}
+    
+.iconm {
+    transform: translateY(0);
+    transition: all .4s ease;
+}
+
+:hover .iconm {
+    transform: rotateY(-10px);
+}
+
+.backcolorcards1 {
+    background-color: #ffffff;
+}
+
+.backcolorcardsm {
+    background-color: #f5fbff;
+}
+
+.backcolorgt{
+    background-color: aliceblue;
+}
+
+.logosize{
+    width: 240px;
+    background-color: black;
+    margin: 25px;
+    padding: 2px;
+}
+
+.fontz1 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 20px !important;
+    color: gray;
+}
+
+.fontz12 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 20px !important;
+    color: rgb(83, 83, 83);
+}
+
+.iconcheck{
+    width: 20px;
+}
+
+.paddingchecks1{
+    padding-left: 100px;
+    padding-top: 35px;
+    padding-right: 80px;
+    padding-bottom: 35px;
+}
+.paddingchecks2{
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.imagechecks{
+    width: 400px;
+    border-radius: 40px;
+}
+
+/*margin de mision y vision*/
+.marginmyv{
+    margin: 120px;
+}
+.newfont11 {
+    font-family: 'Playfair Display', serif!important;
+    color: rgb(83, 83, 83);
+
+}
+
+
+
+}
+
+
+/*Tarjetas de mision y vision*/
+.backcolorcards{
+    background: rgb(26,109,175);
+    background: linear-gradient(90deg, rgba(26,109,175,1) 0%, rgba(25,135,84,1) 98%);
+    
+    }
+
+    .backcolorcard {
+        background-color: #ffffff;
+        color: white !important;
+        
+    }
+    .newfont {
+        font-family: 'Playfair Display', serif;
+    
+    }
+    .newfont1 {
+        font-family: 'Playfair Display', serif!important;
+        color: rgb(83, 83, 83);
+    
+    }
+ 
+    .backcolor {
+        background-color: #ffffff;
+    }
+
+  /*FOOTER*/
+
+
+@media (min-width: 980px) {
+
+    .imgredsocial {
+        width: 50px;
+        margin: 20px;
+    }
+    .imgredsocial11 {
+        width: 60px;
+        margin-left: 230px;
+        margin-right: 20px;
+    }
+    .footertitle {
+        text-align: center;
+        font-weight: lighter;
+    }
+    .footersubtitle1 {
+        text-align: center;
+        margin: 40px;
+        font-weight: lighter;
+        color: gray;
+        font-size: 18px;
+    
+    }
+    .footersubtitle {
+        text-align: center;
+        margin: 40px;
+        font-weight: lighter;
+    }
+    
+    .personalimg{
+        width: 150px;
+        margin-left: 40px;
+    
+    }
+    
+    .redshover:hover{
+        width: 70px ;
+    }
+    
+    
+    }
+    @media (max-width: 980px) {
+    .personalimg{
+        width: 120px;
+        margin: 20px;
+    
+    }
+    .titleresp{
+        font-size: 17px;
+        padding-bottom: 15px;
+    
+    }
+    .subtitleresp{
+        font-size: 15px;
+    
+    
+    }
+    
+    .imgredresp{
+        width: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .footersubresp{
+        font-size: 15px;
+        padding-bottom: 30px;
+        padding-top: 15px;
+    
+    }
+    .footersubresp2{
+        font-size: 13px;
+        
+    
+    }
+    }
+    
+    /*Tamano de la imagen del toast*/
+    
+    .imgsize1{
+        width: 30px;
+    }
+    
+    
+    /*SEND ME A MESSAGE*/
+    @media (min-width: 980px) {
+        .wsize {
+            width: 30% !important;
+            background-color: white;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            padding: 40px;
+        }
+        .logosize{
+            width: 220px;
+            background-color: black;
+            margin: 25px;
+            padding: 2px;
+        }
+        .marginsam{
+            margin: 50px;
+        }
+    
+      /*   .signborderstyle{
+            margin: 150px;
+        } */
+    }
+    @media (max-width: 980px) {
+        .wsize {
+            width: 90% !important;
+            background-color: white;
+            margin-bottom: 50px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 15px;
+        }
+        .logosize{
+            width: 200px;
+            background-color: black;
+            margin: 25px;
+            padding: 2px;
+        }
+        .marginsam{
+            margin: 10px;
+        }
+    }
+    
+    .bgft{
+        background-color: #2c475a;
+    }
+
+    .logo2{
+        width: 180px;
+    }
+
+    .backcolorcardsm{
+        background-color: #f5fbff ;
+    }
+    
