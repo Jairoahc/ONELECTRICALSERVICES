@@ -9,6 +9,7 @@ a {
     width: 100%;
 }
 
+
 @media (min-width: 980px) {
     .bannerwp {
         width: 100%;
@@ -123,6 +124,10 @@ a {
     .iconcheck{
         width: 20px;
     }
+
+    .ldivisora{
+        color: #f5fbff;
+    }
     
     .paddingchecks1{
         padding-left: 10px;
@@ -215,6 +220,10 @@ a {
     display: inline;
 }
 
+.fontz12{
+    color: #f5fbff;
+}
+
 
 
   
@@ -228,6 +237,10 @@ a {
 }
 .widthmention2{
     width: 50%;
+}
+.ldivisora{
+    color: #212529;
+    width: 0%;
 }
     
 .iconm {
@@ -267,7 +280,7 @@ a {
 .fontz12 {
     font-family: 'Playfair Display', serif!important;
     font-size: 20px !important;
-    color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
 }
 
 .iconcheck{
@@ -468,9 +481,14 @@ a {
         }
     }
     
-    .bgft{
+    /*ANTIGUO COLOR DE FOOTER*/
+    /*.bgft{
         background-color: #2c475a;
+    }*/
+       .bgft{
+        background-color: #575757;
     }
+
 
     .logo2{
         width: 180px;
